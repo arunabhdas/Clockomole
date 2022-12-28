@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DCD1A40B295C88CF00500F0E /* CodeLabsProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A40A295C88CF00500F0E /* CodeLabsProApp.swift */; };
-		DCD1A40D295C88CF00500F0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A40C295C88CF00500F0E /* ContentView.swift */; };
+		DCD1A40D295C88CF00500F0E /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A40C295C88CF00500F0E /* MeetingView.swift */; };
 		DCD1A40F295C88D100500F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD1A40E295C88D100500F0E /* Assets.xcassets */; };
 		DCD1A412295C88D100500F0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD1A411295C88D100500F0E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		DCD1A407295C88CF00500F0E /* CodeLabsPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeLabsPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD1A40A295C88CF00500F0E /* CodeLabsProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeLabsProApp.swift; sourceTree = "<group>"; };
-		DCD1A40C295C88CF00500F0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCD1A40C295C88CF00500F0E /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		DCD1A40E295C88D100500F0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCD1A411295C88D100500F0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				DCD1A40A295C88CF00500F0E /* CodeLabsProApp.swift */,
-				DCD1A40C295C88CF00500F0E /* ContentView.swift */,
+				DCD1A40C295C88CF00500F0E /* MeetingView.swift */,
 				DCD1A40E295C88D100500F0E /* Assets.xcassets */,
 				DCD1A410295C88D100500F0E /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCD1A40D295C88CF00500F0E /* ContentView.swift in Sources */,
+				DCD1A40D295C88CF00500F0E /* MeetingView.swift in Sources */,
 				DCD1A40B295C88CF00500F0E /* CodeLabsProApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

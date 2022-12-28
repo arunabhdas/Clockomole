@@ -6,7 +6,7 @@ import SwiftUI
 struct CodeLabsProApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MeetingView()
         }
     }
 }
