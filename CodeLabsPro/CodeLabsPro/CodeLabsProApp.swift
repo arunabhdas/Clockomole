@@ -9,6 +9,8 @@ struct CodeLabsProApp: App {
             // MeetingView()
             CardView(scrum: DailyScrum.sampleData[0])
                 .background(DailyScrum.sampleData[0].theme.mainColor)
+            
+            //ScrumsView(scrums: DailyScrum.sampleData).background(DailyScrum.sampleData[0].theme.mainColor)
         }
     }
 }
