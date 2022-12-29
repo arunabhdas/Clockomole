@@ -6,7 +6,9 @@ import SwiftUI
 struct CodeLabsProApp: App {
     var body: some Scene {
         WindowGroup {
-            MeetingView()
+            // MeetingView()
+            CardView(scrum: DailyScrum.sampleData[0])
+                .background(DailyScrum.sampleData[0].theme.mainColor)
         }
     }
 }
