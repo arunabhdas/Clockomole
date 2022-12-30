@@ -16,6 +16,7 @@
 		DCD1A422295DA3BF00500F0E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A421295DA3BF00500F0E /* Theme.swift */; };
 		DCD1A424295DA40C00500F0E /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A423295DA40C00500F0E /* TrailingIconLabelStyle.swift */; };
 		DCD1A426295DDA2600500F0E /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A425295DDA2600500F0E /* ScrumsView.swift */; };
+		DCD1A428295E2D8A00500F0E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A427295E2D8A00500F0E /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		DCD1A421295DA3BF00500F0E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		DCD1A423295DA40C00500F0E /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		DCD1A425295DDA2600500F0E /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		DCD1A427295E2D8A00500F0E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +67,11 @@
 				DCD1A40A295C88CF00500F0E /* CodeLabsProApp.swift */,
 				DCD1A41D295CA73100500F0E /* CardView.swift */,
 				DCD1A40C295C88CF00500F0E /* MeetingView.swift */,
+				DCD1A425295DDA2600500F0E /* ScrumsView.swift */,
 				DCD1A423295DA40C00500F0E /* TrailingIconLabelStyle.swift */,
 				DCD1A40E295C88D100500F0E /* Assets.xcassets */,
 				DCD1A410295C88D100500F0E /* Preview Content */,
-				DCD1A425295DDA2600500F0E /* ScrumsView.swift */,
+				DCD1A427295E2D8A00500F0E /* DetailView.swift */,
 			);
 			path = CodeLabsPro;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCD1A41C295CA6BD00500F0E /* DailyScrum.swift in Sources */,
+				DCD1A428295E2D8A00500F0E /* DetailView.swift in Sources */,
 				DCD1A424295DA40C00500F0E /* TrailingIconLabelStyle.swift in Sources */,
 				DCD1A40D295C88CF00500F0E /* MeetingView.swift in Sources */,
 				DCD1A426295DDA2600500F0E /* ScrumsView.swift in Sources */,
