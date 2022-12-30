@@ -17,6 +17,7 @@
 		DCD1A424295DA40C00500F0E /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A423295DA40C00500F0E /* TrailingIconLabelStyle.swift */; };
 		DCD1A426295DDA2600500F0E /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A425295DDA2600500F0E /* ScrumsView.swift */; };
 		DCD1A428295E2D8A00500F0E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A427295E2D8A00500F0E /* DetailView.swift */; };
+		DCD1A42C295EF10F00500F0E /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A42B295EF10F00500F0E /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		DCD1A423295DA40C00500F0E /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		DCD1A425295DDA2600500F0E /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		DCD1A427295E2D8A00500F0E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		DCD1A42B295EF10F00500F0E /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +70,11 @@
 				DCD1A41D295CA73100500F0E /* CardView.swift */,
 				DCD1A40C295C88CF00500F0E /* MeetingView.swift */,
 				DCD1A425295DDA2600500F0E /* ScrumsView.swift */,
+				DCD1A427295E2D8A00500F0E /* DetailView.swift */,
+				DCD1A42B295EF10F00500F0E /* DetailEditView.swift */,
 				DCD1A423295DA40C00500F0E /* TrailingIconLabelStyle.swift */,
 				DCD1A40E295C88D100500F0E /* Assets.xcassets */,
 				DCD1A410295C88D100500F0E /* Preview Content */,
-				DCD1A427295E2D8A00500F0E /* DetailView.swift */,
 			);
 			path = CodeLabsPro;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			files = (
 				DCD1A41C295CA6BD00500F0E /* DailyScrum.swift in Sources */,
 				DCD1A428295E2D8A00500F0E /* DetailView.swift in Sources */,
+				DCD1A42C295EF10F00500F0E /* DetailEditView.swift in Sources */,
 				DCD1A424295DA40C00500F0E /* TrailingIconLabelStyle.swift in Sources */,
 				DCD1A40D295C88CF00500F0E /* MeetingView.swift in Sources */,
 				DCD1A426295DDA2600500F0E /* ScrumsView.swift in Sources */,
