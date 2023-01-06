@@ -28,6 +28,10 @@
 		DCD1A47B2966B9D100500F0E /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A47A2966B9D100500F0E /* AVPlayer+Ding.swift */; };
 		DCD1A47D29672B8700500F0E /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A47C29672B8700500F0E /* History.swift */; };
 		DCD1A47F29677A2200500F0E /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A47E29677A2200500F0E /* ScrumStore.swift */; };
+		DCD1A4812967FECA00500F0E /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A4802967FECA00500F0E /* ErrorWrapper.swift */; };
+		DCD1A4832967FF4D00500F0E /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A4822967FF4D00500F0E /* ErrorView.swift */; };
+		DCD1A4852968933900500F0E /* MeetingTimerIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A4842968933900500F0E /* MeetingTimerIView.swift */; };
+		DCD1A487296894E400500F0E /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A486296894E300500F0E /* SpeakerArc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +57,10 @@
 		DCD1A47A2966B9D100500F0E /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		DCD1A47C29672B8700500F0E /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		DCD1A47E29677A2200500F0E /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
+		DCD1A4802967FECA00500F0E /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		DCD1A4822967FF4D00500F0E /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		DCD1A4842968933900500F0E /* MeetingTimerIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerIView.swift; sourceTree = "<group>"; };
+		DCD1A486296894E300500F0E /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,9 @@
 				DCD1A410295C88D100500F0E /* Preview Content */,
 				DCD1A43A295FAAE900500F0E /* ThemeView.swift */,
 				DCD1A43C295FABC900500F0E /* ThemePicker.swift */,
+				DCD1A4822967FF4D00500F0E /* ErrorView.swift */,
+				DCD1A4842968933900500F0E /* MeetingTimerIView.swift */,
+				DCD1A486296894E300500F0E /* SpeakerArc.swift */,
 			);
 			path = CodeLabsPro;
 			sourceTree = "<group>";
@@ -122,6 +133,7 @@
 				DCD1A41B295CA6BD00500F0E /* DailyScrum.swift */,
 				DCD1A47C29672B8700500F0E /* History.swift */,
 				DCD1A47E29677A2200500F0E /* ScrumStore.swift */,
+				DCD1A4802967FECA00500F0E /* ErrorWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -209,19 +221,23 @@
 				DCD1A43D295FABC900500F0E /* ThemePicker.swift in Sources */,
 				DCD1A4722966B63900500F0E /* ScrumProgressViewStyle.swift in Sources */,
 				DCD1A4762966B7B000500F0E /* MeetingFooterView.swift in Sources */,
+				DCD1A4852968933900500F0E /* MeetingTimerIView.swift in Sources */,
 				DCD1A47F29677A2200500F0E /* ScrumStore.swift in Sources */,
 				DCD1A4742966B6EA00500F0E /* ScrumTimer.swift in Sources */,
 				DCD1A41C295CA6BD00500F0E /* DailyScrum.swift in Sources */,
 				DCD1A428295E2D8A00500F0E /* DetailView.swift in Sources */,
 				DCD1A4702966B4A100500F0E /* MeetingHeaderView.swift in Sources */,
 				DCD1A42C295EF10F00500F0E /* DetailEditView.swift in Sources */,
+				DCD1A4812967FECA00500F0E /* ErrorWrapper.swift in Sources */,
 				DCD1A424295DA40C00500F0E /* TrailingIconLabelStyle.swift in Sources */,
 				DCD1A40D295C88CF00500F0E /* MeetingView.swift in Sources */,
 				DCD1A426295DDA2600500F0E /* ScrumsView.swift in Sources */,
 				DCD1A422295DA3BF00500F0E /* Theme.swift in Sources */,
+				DCD1A4832967FF4D00500F0E /* ErrorView.swift in Sources */,
 				DCD1A40B295C88CF00500F0E /* CodeLabsProApp.swift in Sources */,
 				DCD1A43B295FAAE900500F0E /* ThemeView.swift in Sources */,
 				DCD1A41E295CA73100500F0E /* CardView.swift in Sources */,
+				DCD1A487296894E400500F0E /* SpeakerArc.swift in Sources */,
 				DCD1A47B2966B9D100500F0E /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
