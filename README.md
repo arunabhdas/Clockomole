@@ -1,5 +1,5 @@
-# codelabspro-ios
-CodeLabsPro iOS app
+# Clockomole
+Clockomole iOS app
 
 ## Screenshots
 
